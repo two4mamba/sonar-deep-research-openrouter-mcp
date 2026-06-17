@@ -52,12 +52,12 @@ claude mcp add sonar-dr -s user \
 ```bash
 claude mcp add sonar-dr -s user \
   -e OPENROUTER_API_KEY=sk-or-v1-YOURKEY \
-  -- uvx --from git+https://github.com/USER/sonar-deep-research-openrouter-mcp sonar-dr-mcp
+  -- uvx --from git+https://github.com/two4mamba/sonar-deep-research-openrouter-mcp sonar-dr-mcp
 ```
 
 **C. From a local clone (works today, before publishing):**
 ```bash
-git clone https://github.com/USER/sonar-deep-research-openrouter-mcp
+git clone https://github.com/two4mamba/sonar-deep-research-openrouter-mcp
 claude mcp add sonar-dr -s user \
   -e OPENROUTER_API_KEY=sk-or-v1-YOURKEY \
   -- uvx --from /path/to/sonar-deep-research-openrouter-mcp sonar-dr-mcp

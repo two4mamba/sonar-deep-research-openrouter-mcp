@@ -16,8 +16,8 @@ dependencies = [
 sonar-dr-mcp = "sonar_dr_openrouter_mcp.server:main"
 
 [project.urls]
-Homepage = "https://github.com/USER/sonar-deep-research-openrouter-mcp"
-Issues = "https://github.com/USER/sonar-deep-research-openrouter-mcp/issues"
+Homepage = "https://github.com/two4mamba/sonar-deep-research-openrouter-mcp"
+Issues = "https://github.com/two4mamba/sonar-deep-research-openrouter-mcp/issues"
 
 [build-system]
 requires = ["hatchling"]
